@@ -136,10 +136,9 @@ for env_name, kwargs in [
                    'dynamic_action_space' : True}),
         ("river", {}),
         ("river-alt", {'render': river_alt_render}),
-        ("explodingblocks", {}),
+        ("explodingblocks", {'render' : exploding_blocks_render}),
         ("newspapers", {'operators_as_actions' : True,
                         'dynamic_action_space' : True}),
-
 ]:
     other_args = {
         "raise_error_on_invalid_action": False,
