@@ -137,6 +137,8 @@ for env_name, kwargs in [
         ("river", {}),
         ("river-alt", {'render': river_alt_render}),
         ("explodingblocks", {}),
+        ("newspapers", {'operators_as_actions' : True,
+                        'dynamic_action_space' : True}),
 
 ]:
     other_args = {
