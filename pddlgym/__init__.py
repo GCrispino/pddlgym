@@ -166,6 +166,7 @@ for env_name, kwargs in [
         ("navigation8", { 'render': lambda obs: navigation_render(obs, make("PDDLEnvNavigation8-v0").domain) }),
         ("navigation9", { 'render': lambda obs: navigation_render(obs, make("PDDLEnvNavigation9-v0").domain) }),
         ("navigation10", { 'render': lambda obs: navigation_render(obs, make("PDDLEnvNavigation10-v0").domain) }),
+        ("navigation11", { 'render': lambda obs: navigation_render(obs, make("PDDLEnvNavigation11-v0").domain) }),
         ("river-alt", {'render': river_alt_render}),
         ("visit_all", {'render' : visit_all_render,
                        'operators_as_actions': True,
